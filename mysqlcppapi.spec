@@ -1,5 +1,5 @@
 Summary:	C++ interface to MySQL Database
-Summary(pl.UTF-8):   Interfejs C++ do bazy MySQL
+Summary(pl.UTF-8):	Interfejs C++ do bazy MySQL
 Name:		mysqlcppapi
 Version:	1.9.3
 Release:	1
@@ -24,7 +24,7 @@ Mysqlcppapi jest interfejsem C++ do API MySQL.
 
 %package devel
 Summary:	C++ interface to MySQL Database (headers)
-Summary(pl.UTF-8):   Interfejs C++ do bazy MySQL (pliki nagłówkowe)
+Summary(pl.UTF-8):	Interfejs C++ do bazy MySQL (pliki nagłówkowe)
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -42,7 +42,7 @@ Mysql++.
 
 %package static
 Summary:	C++ interface to MySQL Database (static libraries)
-Summary(pl.UTF-8):   Interfejs C++ do bazy MySQL (biblioteki statyczne)
+Summary(pl.UTF-8):	Interfejs C++ do bazy MySQL (biblioteki statyczne)
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
