@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Interfejs C++ do bazy MySQL
 Name:		mysqlcppapi
 Version:	2.0.0
 %define	pre	rc2
-Release:	0.%{pre}.1
+Release:	0.%{pre}.2
 License:	LGPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/mysqlcppapi/%{name}-%{version}_%{pre}.tar.gz
