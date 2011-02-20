@@ -1,0 +1,10 @@
+--- mysqlcppapi-2.0.0/examples/load_file.cc~	2005-09-04 00:19:48.000000000 +0200
++++ mysqlcppapi-2.0.0/examples/load_file.cc	2011-02-20 21:54:54.147305296 +0100
+@@ -3,6 +3,7 @@
+ #include <fstream>
+ #include <iostream>
+ #include <mysqlcppapi/mysqlcppapi.h>
++#include <string.h>
+ 
+ const char  MY_DATABASE[]="telcent";
+ const char  MY_TABLE[]="fax";

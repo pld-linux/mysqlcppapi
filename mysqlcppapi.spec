@@ -3,11 +3,12 @@ Summary(pl.UTF-8):	Interfejs C++ do bazy MySQL
 Name:		mysqlcppapi
 Version:	2.0.0
 %define	pre	rc2
-Release:	0.%{pre}.3
+Release:	0.%{pre}.4
 License:	LGPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/mysqlcppapi/%{name}-%{version}_%{pre}.tar.gz
 # Source0-md5:	640e05864f3f688fcb4aba0505e1ffe9
+Patch0:		%{name}-build.patch
 URL:		http://www.advogato.org/proj/mysqlcppapi/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -56,6 +57,7 @@ biblioteki statyczne.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__libtoolize}
